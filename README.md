@@ -74,9 +74,15 @@ $ git commit -m "commit_description"
 $ git push
 ```
 
+## Team
+- 윤장호
+- 나유림
+- 범주현
+- 하승재
+- 김태균
+
 ## license
 - [HTML Codex](./TEMPLATE_LICENSE)
 - [MIT license](./LICENSE)
-
 ## About
 Authored and maintained by **linker**
