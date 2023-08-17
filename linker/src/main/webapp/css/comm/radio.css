@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.test_obj input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.test_obj span,
+#myButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #4274AB;
+	background-color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+	width: 60px;
+	height: 30px;
+}
+
+#start-date-input,
+#end-date-input {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #4274AB;
+	background-color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+	height: 30px;
+	width: auto;
+}
+
+.test_obj span label,
+#myButton,
+#start-date-input,
+#end-date-input {
+	display: inline-block;
+}
+
+.test_obj span:hover,
+#myButton:hover,
+#start-date-input:hover,
+#end-date-input:hover {
+	background-color: #ece6cc;
+}
